@@ -1,1 +1,3 @@
-a
+def call() {
+    sh 'npm install'
+}

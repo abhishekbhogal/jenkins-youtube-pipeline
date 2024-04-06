@@ -1,3 +1,3 @@
-def call() {
-    sh 'npm install'
+def call(credentialsId) {
+    waitForQualityGate abortPipeline: false, credentialsId: credentialsId   
 }
